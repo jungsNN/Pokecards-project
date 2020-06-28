@@ -1,0 +1,98 @@
+/* add your CSS here */
+html {
+  background-image: linear-gradient(red, yellow, green);
+}
+
+.container {
+  background-color: rgb(240, 240, 240, 0.8);
+  border: solid 1px #777;
+  border-radius:7px;
+  width: 360px;
+  height: 580px;
+  font-family: monospace;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 0.5em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 7px 7px 7px rgb(185, 185, 185);
+}
+
+h3{
+  font-size: 20px;
+  background-color: rgb(255, 255, 153, 0.5);
+  border: solid 1px #777;
+  border-radius:7px;
+  padding: 0.2em;
+  margin-left: 0.3em;
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
+}
+.box1 {
+  width: 90%;
+  height: 35%;
+  border: solid 1px #777;
+  border-radius:7px;
+  background-color: #ffffff;
+  padding: inherit;
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
+.box2{
+  width: 90%;
+  height: 45%;
+  border: solid 1px #777;
+  border-radius:7px;
+  background-color: #ffffff;
+  text-align: inherit;
+  padding: inherit;
+  margin: auto;
+}
+p{
+  margin: 1.5px;
+
+}
+ul{
+  list-style: none
+}
+
+span{
+  font-weight: bold;
+}
+
+#fact{
+  font-style: italic;
+}
+a{
+  font-weight: bold;
+  text-decoration: none;
+}
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: gray;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
